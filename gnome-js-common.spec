@@ -24,6 +24,7 @@ BuildArch: noarch
 BuildRequires: seed-devel
 BuildRequires: gjs-devel
 BuildRequires: intltool
+BuildRequires: libtool
 
 %description
 gnome-js-common is a module holding tests and JavaScript code useful
