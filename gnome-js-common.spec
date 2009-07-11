@@ -1,8 +1,8 @@
 %define name gnome-js-common
-%define version 0.1
+%define version 0.1.1
 %define git 20090529
 %if %git
-%define release %mkrel 0.%git.1
+%define release %mkrel 1
 %else
 %define release %mkrel 1
 %endif
