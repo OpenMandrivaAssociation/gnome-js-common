@@ -2,9 +2,9 @@
 %define version 0.2
 %define git 20090529
 %if %git
-%define release %mkrel 1
+%define release %mkrel 2
 %else
-%define release %mkrel 1
+%define release %mkrel 2
 %endif
 
 Summary: Common JavaScript modules for GNOME
