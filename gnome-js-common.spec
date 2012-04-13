@@ -5,7 +5,7 @@
 Summary:	Common JavaScript modules for GNOME
 Name:		gnome-js-common
 Version:	0.1.2
-Release:	%mkrel 1
+Release:	%mkrel 2
 Epoch:		1
 Source0:	ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{major}/%{name}-%{version}.tar.bz2
 License:	GPLv3
@@ -13,8 +13,6 @@ Group:		Development/Other
 Url:		http://www.gnome.org
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
-BuildRequires:	seed-devel
-BuildRequires:	gjs-devel
 BuildRequires:	intltool
 
 %description
@@ -30,7 +28,10 @@ or common to both Seed and gjs.
 
 %install
 rm -rf %{buildroot}
-%makeinstall_std gnome_js_commondocdir=%{_datadir}/doc/%name
+%makeinstall_std gnome_js_commondocdir=%{_datadir}/doc/%{name}
+
+%check
+make check
 
 %clean
 rm -rf %{buildroot}
