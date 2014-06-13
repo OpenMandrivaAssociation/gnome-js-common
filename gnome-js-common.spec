@@ -4,7 +4,7 @@ Summary:	Common JavaScript modules for GNOME
 Name:		gnome-js-common
 Epoch:		1
 Version:	0.1.2
-Release:	7
+Release:	8
 License:	GPLv3
 Group:		Development/Other
 Url:		http://www.gnome.org
