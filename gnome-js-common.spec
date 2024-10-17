@@ -7,7 +7,7 @@ Version:	0.1.2
 Release:	13
 License:	GPLv3
 Group:		Development/Other
-Url:		http://www.gnome.org
+Url:		https://www.gnome.org
 Source0:	ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.bz2
 Source100:	%{name}.rpmlintrc
 BuildArch:	noarch
