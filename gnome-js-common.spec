@@ -11,6 +11,11 @@ Url:		https://www.gnome.org
 Source0:	ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.bz2
 Source100:	%{name}.rpmlintrc
 BuildArch:	noarch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	intltool
 
 %description
